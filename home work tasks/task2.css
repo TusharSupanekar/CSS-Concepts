@@ -1,0 +1,50 @@
+#count{
+    border: 5px solid black;
+    width: 900px;
+    height: 1200px;
+    background-color: turquoise;
+}
+
+
+
+
+#circle{
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    border-radius: 250px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color:rgb(203, 237, 52)
+    
+}
+
+
+#square{
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 250px;
+    background-color: chartreuse;
+   
+    box-sizing: border-box;
+}
+
+#icon{
+    font-size: 210px;
+    color: magenta;
+    padding-left: 10px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-decoration-line:underline ;
+    text-decoration-style:wavy ;
+    color: red;
+}
+

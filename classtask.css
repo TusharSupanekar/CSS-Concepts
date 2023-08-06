@@ -1,0 +1,27 @@
+div{
+    border: 2px dashed blue;
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 20px red;
+    background-color: mediumslateblue;
+}
+
+p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+p:hover{
+    font-size: 80px;
+    color: blue;
+    transition: width 2s, ease-in-out, 2s;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+div:hover{
+    background-image: radial-gradient(red, green,yellow);
+    width: 500px;
+    height: 500px;
+    transition-property: width,height;
+    transition-duration: 2s,2s;   
+}

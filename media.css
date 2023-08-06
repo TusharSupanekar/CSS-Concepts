@@ -1,0 +1,13 @@
+#parent{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+@media (min-height:600px)and (min-width:600px){
+    #parent{
+        background-color: aqua;
+        font-size: 150px;
+    }
+}

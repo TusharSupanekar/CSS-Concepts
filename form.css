@@ -1,0 +1,49 @@
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color:coral;
+}
+
+a:hover{
+    background-color: black;
+    color: blue;
+}
+
+a:active{
+    color: black;
+} */
+
+
+/* p::first-line{
+    background-color: aquamarine;
+}
+
+p::first-letter{
+    color:white;
+} */
+
+/* p::before{
+    content: "hello " ;
+}
+
+p::after{
+    content: " tushar";
+} */
+
+/* 
+li::marker{
+    color: red;
+} */
+/* 
+p::selection{
+    background-color: yellow;
+    color: white;
+} */
+
+
+div:hover{
+    background-color: black;
+    color: yellow;
+}

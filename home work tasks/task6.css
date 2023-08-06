@@ -1,0 +1,104 @@
+#main{
+    border: 2px solid black;
+    width: 1500px;
+    height: 1000px;
+}
+
+.t{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(180deg);
+    transition-duration: 2s;
+    background-image: radial-gradient(white,blue,red,yellow,green);
+    display: none;
+}
+
+#main:hover .t{
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    display: inline-block;
+}
+
+@keyframes flip {
+    from{
+        transform: rotateY(0deg);
+        transition-duration: 2s;
+    }
+    to{
+        transform: rotateY(360deg);
+        transition-duration: 2s;
+    }
+
+}
+
+/* #u{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+
+#s{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+
+#h{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+
+#a{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+
+#r{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px ;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+} */

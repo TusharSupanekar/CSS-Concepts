@@ -1,0 +1,27 @@
+p::before{
+    content: "hello ";
+}
+
+p::after{
+    content:" tushar";
+}
+
+li::marker{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
+    color:aliceblue;
+}
+
+
+p::first-letter{
+    background-color: black;
+    color: red;
+}
+
+p::first-line{
+    background-color: yellow;
+    color: white;
+}
